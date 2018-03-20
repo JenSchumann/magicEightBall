@@ -1,0 +1,20 @@
+{
+  "name": "magiceightball",
+  "version": "1.0.0",
+  "description": "#### **About:**  - A simple fortune-telling app whose existence was foretold as empowering this dev to build her JavaScript skills.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JenSchumann/magicEightBall.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JenSchumann/magicEightBall/issues"
+  },
+  "homepage": "https://github.com/JenSchumann/magicEightBall#readme"
+}
