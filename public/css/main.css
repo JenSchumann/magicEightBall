@@ -12,5 +12,17 @@
   margin: auto 0;
   text-align: center;
   justify-content: center;
+}
 
+.title {
+  margin: auto 0;
+  text-align: center;
+  /* position: relative; */
+  /* background-color:  */
+  /* opacity: 0.5; */
+  color: black;
+  padding-top: 35%;
+  padding-bottom: 35%;
+  /* position: absolute; */
+  background: rgba(255,255,255,0.45);
 }
