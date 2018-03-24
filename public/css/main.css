@@ -1,4 +1,16 @@
 * {
-  border: 1px solid hotpink;
-  background-color: #39487f;
+  /* border: 1px solid hotpink;
+  background-color: #39487f; */
+}
+
+/*background images*/
+.main-img  {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -5;
+  margin: auto 0;
+  text-align: center;
+  justify-content: center;
+
 }
