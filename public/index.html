@@ -10,8 +10,8 @@
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="/js/app.js" charset="utf-8"></script>
   </head>
   <body>
@@ -19,15 +19,17 @@
     <!-- Background Image -->
     <img class="main-img img-fluid mx-auto d-block text-center" src="./assets/pexels-photo-709810.jpeg"alt="f8ball"/>
 
-    <div class="title">  
+    <div class="title">
     <!-- <div class="jumbotron"> -->
         <h1 class="display-4">f8ball</h1>
         <p class="lead">I can prophesy for you.</p>
 
         <p>Press the button to ask me a question.</p>
         <p class="lead">
-        <a class="btn btn-dark btn-lg" href="#" role="button">Ask</a>
+        <a class="btn btn-dark btn-lg" href="#" onClick="askQ()" role="button">Ask</a>
         </p>
+
+        <div id="output"></div>
     <!-- </div> -->
     </div>
 
