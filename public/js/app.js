@@ -22,6 +22,5 @@ function askQ(){
            default:
                answer = "I don't know about that.";
        }
-       output.innerHTML = "You asked me "+question+"<br>Here's my answer: "+answer
+       output.innerHTML = "You asked me "+question+"<br>Here's my answer:<br>"+answer
      }
-  // output.innerHTML = "You asked me "+question+"<br>Here's my answer: "+answer
