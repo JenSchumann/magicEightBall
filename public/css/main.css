@@ -24,7 +24,23 @@
     background: rgba(255,255,255,0.45);
 }
 
-#output {
+#output, #askBtn, #askAgain {
   font-size: 20rem bold black;
   font-family: 'Anton', sans-serif;
 }
+
+#overlay {
+            visibility: hidden;
+            position:absolute;
+            left:0;
+            right:0;
+            top:4%;
+            margin-left:auto;
+            margin-right:auto;
+            width:60%;
+            height:27%;
+            background-color:#ddd;
+            border:1px solid black;
+            z-index:1000;
+            text-align: center;
+        }

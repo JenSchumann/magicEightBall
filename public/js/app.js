@@ -1,11 +1,14 @@
 console.log('ready to prophesy');
-// var output = document.getElementById("output");
+
+function buttonClicked(){
+ var el = document.getElementById("overlay");
+ el.style.visibility = (el.style.visibility=="visible")? "hidden":"visible";
+}
 
 function askQ(){
     var answer = "something went wrong";
+    var question = document.getElementById("question").value;
        var output = document.getElementById("output");
-
-       var question = prompt("Ask me anything");
        var randomNumber = Math.floor(Math.random()*6);
        switch (randomNumber){
            case 0:
@@ -22,5 +25,5 @@ function askQ(){
            default:
                answer = "I don't know about that.";
        }
-       output.innerHTML = "You asked me "+question+"<br>Here's my answer:<br>"+answer
+       output.innerHTML = "<br><br>You asked me:<br> "+question+"<br>Here's my answer:<br>"+answer
      }
