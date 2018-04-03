@@ -19,11 +19,13 @@
     margin: auto 0;
     text-align: center;
     color: black;
-    padding-top: 7%;
-    padding-bottom: 7%;
+    padding-top: 6%;
+    padding-bottom: 6%;
     background: rgba(255,255,255,0.45);
 }
-
+h1,h2,h5 {
+  font-family: 'Anton', sans-serif;
+}
 #output, #askBtn, #askAgain {
   font-size: 20rem bold black;
   font-family: 'Anton', sans-serif;
