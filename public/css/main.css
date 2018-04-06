@@ -26,6 +26,7 @@
 h1,h2,h5 {
   font-family: 'Anton', sans-serif;
 }
+
 #output, #askBtn, #askAgain {
   font-size: 20rem bold black;
   font-family: 'Anton', sans-serif;
@@ -40,9 +41,25 @@ h1,h2,h5 {
             margin-left:auto;
             margin-right:auto;
             width:60%;
-            height:27%;
+            height:35%;
             background-color:#ddd;
             border:1px solid black;
             z-index:1000;
             text-align: center;
         }
+
+@media only screen and (max-width: 1024px) {
+  div#overlay{
+    top:2%;
+    width:60%;
+    height:19%;
+  }
+  .title{
+    height: 60%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+
+  }
+}
